@@ -1,0 +1,155 @@
+/* * {
+    border: 1px solid red;
+} */
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+main {
+    background-color: #F9FAFB;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+
+    align-items: center;
+    justify-content: center;
+}
+
+fieldset {
+    border: none;
+}
+
+legend {
+    font-size: 1rem;
+    
+}
+
+label, input {
+    display: block;
+}
+
+label {
+    color: #8f8f8f;
+    font-size: 10px;
+}
+
+input {
+    margin: 5px 0;
+    border: 1px solid #E5E7EB;
+}
+
+footer {
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    padding-bottom: 10px;
+    width: 100%;
+    height: 20px;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.image__container {
+    background-image: url(./images/hero-image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 35%;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+.sing-up__container {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    
+}
+
+.sing-up__text {
+    color: #333333;
+    padding: 0 52px;
+    width: 700px;
+    font-weight: 700;
+}
+
+.sing-up__text h2 {
+    color: #596D48;
+}
+
+.sing-up__form__container {
+    background: #ffffff;
+    padding: 10px;
+    padding-left: 40px;
+}
+
+.sing-up__form__container > fieldset {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.forms__left,
+.forms__right {
+    width: 50%;
+}
+
+.forms__right {
+    padding-right: 400px;
+}
+
+.create-account {
+    padding: 52px;
+}
+
+.create-account p {
+    font-size: 0.7rem;
+}
+
+.account__button {
+    background: #596D48;
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+
+.image__credits,
+.page__credits {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 20px;
+}
+
+.image__credits {
+    color: rgba(255, 255, 255, 0.856);
+    width: 35%;
+    margin: 0;
+}
+
+.image__credits a {
+    color: white;
+    text-decoration: none;
+}
+
+.page__credits {
+    width: 65%;
+    margin: 0;
+}
+
+.page__credits a {
+    color: #596D48;
+    text-decoration: none;
+}
