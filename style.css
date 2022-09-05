@@ -30,6 +30,7 @@ fieldset {
 
 legend {
   font-size: 1rem;
+  font-weight: 700;
 }
 
 label,
@@ -40,6 +41,7 @@ input {
 label {
   color: #8f8f8f;
   font-size: 10px;
+  margin-top: 15px;
 }
 
 .input:focus {
@@ -52,6 +54,8 @@ label {
 }
 
 input {
+  width: 200px;
+  height: 20px;
   margin: 5px 0;
   border: 1px solid #e5e7eb;
 }
@@ -88,6 +92,7 @@ footer {
   padding: 0 52px;
   width: 700px;
   font-weight: 700;
+  margin-bottom: 20px;
 }
 
 .sing-up__text h2 {
@@ -96,7 +101,7 @@ footer {
 
 .sing-up__form__container {
   background: #ffffff;
-  padding: 10px;
+  padding: 30px;
   padding-left: 40px;
   box-shadow: 0px 5px 3px 0px rgba(224,224,224,0.75);
 -webkit-box-shadow: 0px 5px 3px 0px rgba(224,224,224,0.75);
@@ -119,7 +124,7 @@ footer {
 }
 
 .create-account {
-  padding: 30px 52px;
+  padding: 40px 52px;
 }
 
 .create-account p {
