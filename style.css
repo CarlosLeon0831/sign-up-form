@@ -43,8 +43,12 @@ label {
 }
 
 .input:focus {
-  border: 1px solid var(--accent);
-  border-color: var(--accent);
+  outline-color: var(--accent);
+
+}
+
+.error {
+  border-color: #d63333;
 }
 
 input {
