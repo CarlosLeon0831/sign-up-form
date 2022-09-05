@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
+    <script src="./script.js"></script>
     <title>Sing-Up</title>
   </head>
   <body>
@@ -32,22 +33,26 @@
               <label for="email">EMAIL</label>
               <input class="input" type="email" id="email" name="email" />
               <label for="password">PASSWORD</label>
-              <input class="input" type="password" id="password" name="password" />
+              <input class="input" type="password" id="password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required/>
+              <!-- BUTTON -->
+              <div class="create-account">
+                <button class="account__button">Create Account</button>
+                <p>Already have an account? <a href="#">Log in</a></p>
+              </div>
             </div>
             <div class="forms__right">
               <label for="last-name">LAST NAME</label>
               <input class="input" type="text" id="last-name" name="last-name" />
               <label for="number">PHONE NUMBER</label>
               <input class="input" type="number" id="number" name="number" />
-              <label for="password">CONFIRM PASSWORD</label>
-              <input class="input" type="password" id="password" name="password" />
+              <label for="confirm-password">CONFIRM PASSWORD</label>
+              <input class="input" type="password" id="confirm-password" name="confirm-password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required/>
+              <h6 id="errorMsg"></h6>
             </div>
+            
           </fieldset>
         </div>
-        <div class="create-account">
-            <button class="account__button">Create Account</button>
-            <p>Already have an account? <a href="#">Log in</a></p>
-        </div>
+  
       </div>
     </main>
     <footer>

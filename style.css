@@ -87,6 +87,7 @@ footer {
   display: flex;
   flex-direction: column;
   width: 65%;
+  margin-bottom: 120px;
 }
 
 .sing-up__text {
@@ -105,6 +106,7 @@ footer {
   background: #ffffff;
   padding: 30px;
   padding-left: 40px;
+  height: 200px;
   box-shadow: 0px 5px 3px 0px rgba(224, 224, 224, 0.75);
   -webkit-box-shadow: 0px 5px 3px 0px rgba(224, 224, 224, 0.75);
   -moz-box-shadow: 0px 5px 3px 0px rgba(224, 224, 224, 0.75);
@@ -126,7 +128,8 @@ footer {
 }
 
 .create-account {
-  padding: 40px 52px;
+  position: absolute;
+  padding: 60px 0px 0px 0px;
 }
 
 .create-account p {
@@ -147,6 +150,11 @@ footer {
   width: 183px;
   height: 40px;
   border-radius: 5px;
+}
+
+.account__button:hover {
+  background: #207da8;
+  cursor: pointer;
 }
 
 .image__credits,
