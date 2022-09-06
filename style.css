@@ -83,6 +83,19 @@ footer {
   overflow: hidden;
 }
 
+.visit__iceland {
+  position: absolute;
+  width: 35%;
+  top: 100px;
+  display: flex;
+  background-color: #1b29477c;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Abel', sans-serif;
+  color: #f9fafb;
+  font-size: 2rem;
+}
+
 .sing-up__container {
   display: flex;
   flex-direction: column;
