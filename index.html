@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
-    <script src="./script.js"></script>
+    <script defer src="./script.js"></script>
     <title>Sing-Up</title>
   </head>
   <body>
@@ -33,7 +33,7 @@
               <label for="email">EMAIL</label>
               <input class="input" type="email" id="email" name="email" />
               <label for="password">PASSWORD</label>
-              <input class="input" type="password" id="password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required/>
+              <input class="input" type="password" id="password" name="password" />
               <!-- BUTTON -->
               <div class="create-account">
                 <button class="account__button">Create Account</button>
@@ -46,7 +46,7 @@
               <label for="number">PHONE NUMBER</label>
               <input class="input" type="number" id="number" name="number" />
               <label for="confirm-password">CONFIRM PASSWORD</label>
-              <input class="input" type="password" id="confirm-password" name="confirm-password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required/>
+              <input class="input" type="password" id="confirm-password" name="confirm-password" />
               <h6 id="errorMsg"></h6>
             </div>
             

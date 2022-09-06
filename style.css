@@ -193,6 +193,12 @@ footer {
   font-weight: 700;
 }
 
+#errorMsg {
+  font-weight: 300;
+  margin: 0;
+  color: #d63333;
+}
+
 :root {
   --accent: #33b0d6;
 }
